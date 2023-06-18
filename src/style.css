@@ -27,7 +27,6 @@ h1 {
     border-radius: 5px;
     background: #e5e5e5;
     box-shadow:  28px 28px 50px #a2a2a2,
-             -28px -28px 50px #ffffff;
 }
 
 img {
@@ -47,3 +46,14 @@ h2 {
 p {
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95vw;
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+  }
