@@ -22,11 +22,12 @@ h1 {
 
 .container {
     max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
+    margin: 40px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #e5e5e5;
+    box-shadow:  28px 28px 50px #a2a2a2,
+             -28px -28px 50px #ffffff;
 }
 
 img {
